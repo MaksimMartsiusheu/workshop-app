@@ -1,0 +1,33 @@
+INSERT INTO category (name, parent_id)
+VALUES ('Electronics', NULL),
+       ('Clothing', NULL),
+       ('Smartphones', 1),
+       ('Laptops', 1),
+       ('T-shirts', 2),
+       ('Dresses', 2),
+       ('Books', NULL),
+       ('Furniture', NULL),
+       ('Gaming Consoles', 1),
+       ('Kitchen Appliances', NULL);
+
+INSERT INTO product (name, price, category_id)
+VALUES ('Smartphone Model A', 599.99, 3),
+       ('Laptop Model X', 999.99, 4),
+       ('T-shirt Blue', 19.99, 5),
+       ('Dress Floral', 49.99, 6),
+       ('Book: The Great Novel', 12.99, 7),
+       ('Chair Model Y', 89.99, 8),
+       ('Gaming Console PS5', 499.99, 9),
+       ('Coffee Maker', 39.99, 10),
+       ('Smartphone Model B', 699.99, 3),
+       ( 'Laptop Model Z', 1299.99, 4),
+       ( 'Smartwatch', 199.99, 1),
+       ( 'Jeans', 29.99, 2),
+       ( 'Hat', 9.99, 2),
+       ( 'Novel: Mystery Thriller', 15.99, 7),
+       ( 'Table', 149.99, 8),
+       ( 'Video Game: FIFA 2024', 59.99, 9),
+       ( 'Blender', 34.99, 10),
+       ( 'Tablet', 399.99, 1),
+       ( 'Sneakers', 79.99, 2),
+       ( 'Cup', 4.99, 10);
